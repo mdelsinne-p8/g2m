@@ -1,0 +1,49 @@
+<html lang="fr">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>ArcGIS API for JavaScript</title>
+
+    <!-- Chargement de la feuille de style CSS ArcGIS -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+
+    <!-- Mon CSS perso -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Chargement de la bibliothèque JS ArcGIS -->
+    <script src="https://js.arcgis.com/4.14/"></script>
+
+</head>
+
+<body>
+    
+    <!-- carte -->
+    <div id="viewDiv"></div>
+
+    <!-- logo -->
+    <div id="logoDiv" class="esri-widget"></div>
+
+    <!-- Bouton afficher/masquer la bibliothèque des fonds de carte -->
+    <input type="button" id="btShowBasemapGallery" value="Basemaps" onClick="showBasemapGallery()" class="esri-widget">
+
+    <!-- Gestionnaire de couches -->
+    <div id="layers-control" class="esri-widget">
+        <div>
+            <input type="checkbox" id="cbDepartements" checked onChange="showLayers(this)">
+            <label for="cbDepartements">Départements</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbRegions" checked onChange="showLayers(this)">
+            <label for="cbRegions">Régions</label>
+        </div>
+    </div>
+
+    <!-- mon script JS -->
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

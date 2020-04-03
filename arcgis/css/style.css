@@ -1,0 +1,25 @@
+html, body, #viewDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#logoDiv {
+    width: 64px;
+    height: 32px;
+    background-size: 64px 32px;
+    background-image: url("../ressources/logoP8.png");
+  }
+
+#layers-control {
+    padding: 12px 15px;
+}
+
+div.esri-legend__service {
+    padding: 6px 6px;
+}
+
+div.esri-component.esri-legend.esri-widget--panel.esri-widget {
+    width: 100px;
+}
