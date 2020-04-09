@@ -15,11 +15,3 @@ html, body, #viewDiv {
 #layers-control {
     padding: 12px 15px;
 }
-
-div.esri-legend__service {
-    padding: 6px 6px;
-}
-
-div.esri-component.esri-legend.esri-widget--panel.esri-widget {
-    width: 100px;
-}

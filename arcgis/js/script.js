@@ -30,14 +30,14 @@ require([ // Chargement des modules ESRI
     });
 
     // Carte 2D
-    /*view = new MapView({
+    view = new MapView({
         container: "viewDiv",
         map: map,
         center: [2.294481, 48.858370], // Paris WGS84
         zoom: 10
-    });*/
+    });
 
-
+    /*
     // Carte 3D
     var view = new SceneView({
         container: "viewDiv",
@@ -51,7 +51,7 @@ require([ // Chargement des modules ESRI
           tilt: 65  // perspective in degrees
         }
     });
-
+    */
 
     // Init du widget de recherche d'adresse
     var search = new Search({
