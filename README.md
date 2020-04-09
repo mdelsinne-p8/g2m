@@ -17,11 +17,12 @@ Recupérer l'archive suivante :
         - script.js
     - css
         - style.css
-    - data/circle-8.png
-    - data/circle-16.png
-    - data/circle-32.png
-    - data/circle-64.png
-    - data/undefined.png
+    - data
+        - circle-8.png
+        - circle-16.png
+        - circle-32.png
+        - circle-64.png
+        - undefined.png
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
