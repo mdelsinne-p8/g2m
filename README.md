@@ -27,9 +27,10 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
 <h4>Contexte : OpenLayers 3</h4>
-
-- osmLayer
-- vectorLayer
+La carte est composée d'un fond de carte et d'une couche vecteur point :
+- osmLayer : OpenStreetMap
+- vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
+Projection : WGS84 WebMarcator EPGS 3857
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
     - Url : https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer
@@ -52,6 +53,12 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
         - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée ou non
 
 4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19 :
-    - Définir un style pour 
+    - Créer les styles correspondants aux images PNG du répertoire 'data'
+    - Exploiter le champs <b>Deaths</b> pour construire la symbologie suivante :
+        [0:100[ : symboliser avec l'image 8px
+        [0:200[ : symboliser avec l'image 8px
+        [0:1000[ : symboliser avec l'image 8px
+        [0:infini] : symboliser avec l'image 8px
+        [autres valeurs] :symboliser avec l'image 8px
 
 5.
