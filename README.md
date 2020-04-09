@@ -12,16 +12,16 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 Recupérer l'archive suivante :
 
-index.html
-- js/script.js
-- css/style.css
-- data/circle-8.png
-- data/circle-16.png
-- data/circle-32.png
-- data/circle-64.png
-- data/undefined.png
+- index.html
+    - js/script.js
+    - css/style.css
+    - data/circle-8.png
+    - data/circle-16.png
+    - data/circle-32.png
+    - data/circle-64.png
+    - data/undefined.png
 
-<i>Ouvrir index.html et renseigner votre NOM et prénom</i>
+<i>Editer index.html et renseigner votre NOM et prénom</i>
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
     - url : https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer
