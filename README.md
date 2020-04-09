@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 # Examen : 10 avril 2020 (durée 3h)
 
-Recupérer l'archive suivante :
+<h3>Recupérer l'archive suivante :</h3>
 
 - index.html
     - js
@@ -26,7 +26,7 @@ Recupérer l'archive suivante :
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
-+Contexte :+ OpenLayers 3
+<h4>Contexte : OpenLayers 3</h4>
 - La carte est composée de 2 couches
     - osmLayer : Fond de carte OpenStreetMap
     - vectorLayer : Couche vecteur point de l'épidémie COVID-19 par région
