@@ -55,11 +55,13 @@ Projection : WGS84 WebMarcator EPGS 3857
 4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19 :
     - Créer les styles correspondants aux images PNG du répertoire 'data'
     - Exploiter le champs <b>Deaths</b> pour construire la symbologie suivante :
-        [0:100[ : symboliser avec l'image 8px
-        [0:200[ : symboliser avec l'image 8px
-        [0:1000[ : symboliser avec l'image 8px
-        [0:infini] : symboliser avec l'image 8px
-        [autres valeurs] :symboliser avec l'image 8px
+        - [0:100[ : symboliser avec l'image 8px
+        - [0:200[ : symboliser avec l'image 16px
+        - [0:1000[ : symboliser avec l'image 8px
+        - [0:infini] : symboliser avec l'image 8px
+        - [autres valeurs] :symboliser avec l'image 8px
 
 5.  Ajouter l'évènement onclick sur la carte pour afficher une popup dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencé
-    - attribut <b>Death</b>
+    - attribut <b>Province/State</b> : Nom de la région
+    - attribut <b>Death</b> : Nombre de décès
+    - Cliquer sur la carte 
