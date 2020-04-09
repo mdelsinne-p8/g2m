@@ -26,11 +26,11 @@ Recupérer l'archive suivante :
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
-Contexte : OpenLayers 3
-    - La carte est composée de 2 couches
-        - osmLayer : Fond de carte OpenStreetMap
-        - vectorLayer : Couche vecteur point de l'épidémie COVID-19 par région
-    - Projection : WGS84 WebMecator EPSG 3857
++Contexte :+ OpenLayers 3
+- La carte est composée de 2 couches
+    - osmLayer : Fond de carte OpenStreetMap
+    - vectorLayer : Couche vecteur point de l'épidémie COVID-19 par région
+- Projection : WGS84 WebMecator EPSG 3857
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
     - Url : https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer
