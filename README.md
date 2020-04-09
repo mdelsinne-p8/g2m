@@ -12,6 +12,15 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 Recupérer l'archive suivante :
 
+index.html
+- js/script.js
+- css/style.css
+- data/circle-8.png
+- data/circle-16.png
+- data/circle-32.png
+- data/circle-64.png
+- data/undefined.png
+
 <i>Ouvrir index.html et renseigner votre NOM et prénom</i>
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
@@ -30,9 +39,9 @@ Recupérer l'archive suivante :
     - Depuis l'évènement <b>onchange</b> des cases à cocher, appeler une fonction JavaScript permettant de gérer la visibilité des deux fonds de carte
     - La case à cocher ArcGIS World Street Map ne dois pas être cochée au démarrage puisque la couche n'est pas visible au démarrage
     - Attention : 
-        - il doit toujours y avoir 1 des fonds de carte visible : c'est à dire que le fait de masquer un fond de carte entraine l'affichage visible de l'autre fond de carte
+        - il doit toujours y avoir 1 fond de carte visible : c'est à dire que le fait de masquer un fond de carte entraine l'affichage visible de l'autre fond de carte
         - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraine l'affichage masqué de l'autre fond de carte
-        - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée
+        - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée ou non
 
 4.
 
