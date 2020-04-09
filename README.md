@@ -26,11 +26,10 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
+- osmLayer
+- vectorLayer
+
 <h4>Contexte : OpenLayers 3</h4>
-La carte est composée de 2 couches
-- osmLayer : Fond de carte OpenStreetMap
-- vectorLayer : Couche vecteur point de l'épidémie COVID-19 par région
-Projection : WGS84 WebMecator EPSG 3857
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
     - Url : https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer
@@ -52,7 +51,7 @@ Projection : WGS84 WebMecator EPSG 3857
         - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraine l'affichage masqué de l'autre fond de carte
         - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée ou non
 
-4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19
-    - 
+4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19 :
+    - Définir un style pour 
 
 5.
