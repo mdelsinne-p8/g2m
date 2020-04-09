@@ -13,8 +13,10 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 Recupérer l'archive suivante :
 
 - index.html
-    - js/script.js
-    - css/style.css
+    - js
+        - script.js
+    - css
+        - style.css
     - data/circle-8.png
     - data/circle-16.png
     - data/circle-32.png
