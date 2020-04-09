@@ -61,4 +61,5 @@ Projection : WGS84 WebMarcator EPGS 3857
         [0:infini] : symboliser avec l'image 8px
         [autres valeurs] :symboliser avec l'image 8px
 
-5.
+5.  Ajouter l'évènement onclick sur la carte pour afficher une popup dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencé
+    - attribut <b>Death</b>
