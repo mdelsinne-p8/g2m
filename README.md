@@ -28,8 +28,8 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 <h4>Contexte : OpenLayers 3</h4>
 La carte est composée d'un fond de carte et d'une couche vecteur point :
-- osmLayer : OpenStreetMap
-- vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
+    - osmLayer : OpenStreetMap
+    - vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
 Projection : WGS84 WebMarcator EPGS 3857
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
@@ -56,10 +56,10 @@ Projection : WGS84 WebMarcator EPGS 3857
     - Créer les styles correspondants aux images PNG du répertoire 'data'
     - Exploiter le champs <b>Deaths</b> pour construire la symbologie suivante :
         - [0:100[ : symboliser avec l'image 8px <i>circle-8.png</i>
-        - [0:200[ : symboliser avec l'image 16px <i>circle-8.png</i>
-        - [0:1000[ : symboliser avec l'image 32px <i>circle-8.png</i>
-        - [0:infini] : symboliser avec l'image 64px <i>circle-8.png</i>
-        - [autres valeurs] :symboliser avec l'image undefined.png
+        - [0:200[ : symboliser avec l'image 16px <i>circle-16.png</i>
+        - [0:1000[ : symboliser avec l'image 32px <i>circle-32.png</i>
+        - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
+        - [autres valeurs] :symboliser avec l'image <i>undefined.png</i>
 
 5.  Ajouter l'évènement onclick sur la carte pour afficher une popup dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencé
     - attribut <b>Province/State</b> : Nom de la région
