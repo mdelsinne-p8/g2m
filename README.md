@@ -29,10 +29,9 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 La carte est composée d'un fond de carte et d'une couche vecteur point :
 - osmLayer : OpenStreetMap
-
-
-    - vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
-    
+- vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
+Projection : WGS84 WebMarcator EPGS 3857
+  
 <h4>Contexte : OpenLayers 3</h4>
 La carte est composée d'un fond de carte et d'une couche vecteur point :
     - osmLayer : OpenStreetMap
