@@ -26,6 +26,10 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
+
+La carte est composée d'un fond de carte et d'une couche vecteur point :
+    - osmLayer : OpenStreetMap
+    - vectorLayer : données sur l'épidémie COVID-19 par région au 5 avril 2020
 <h4>Contexte : OpenLayers 3</h4>
 La carte est composée d'un fond de carte et d'une couche vecteur point :
     - osmLayer : OpenStreetMap
@@ -61,7 +65,8 @@ Projection : WGS84 WebMarcator EPGS 3857
         - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
         - [autres valeurs] :symboliser avec l'image <i>undefined.png</i>
 
-5.  Ajouter l'évènement onclick sur la carte pour afficher une popup dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencé
-    - attribut <b>Province/State</b> : Nom de la région
-    - attribut <b>Death</b> : Nombre de décès
-    - Cliquer sur la carte 
+5.  Ajouter l'évènement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencés :
+    - Ajouter une <div> HTML dediée à la popup
+    - Attribut <b>Province/State</b> : Nom de la région
+    - Attribut <b>Death</b> : Nombre de décès
+    - Fermer la popup si celle-ci est ouverte et qu'aucune entité
