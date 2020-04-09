@@ -63,7 +63,14 @@ Projection : WGS84 WebMarcator EPGS 3857
         - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
         - [autres valeurs] :symboliser avec l'image <i>undefined.png</i>
 
-5.  Ajouter l'évènement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région en caractères gras et le nombre de décès réferencés :
-    - Ajouter une <div> HTML dediée à la popup
+5.  Ajouter l'évènement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès réferencés :
+    - Ajouter une div HTML dediée à la popup
     - Attribut <b>Province/State</b> : Nom de la région
     - Attribut <b>Death</b> : Nombre de décès
+    
+Déposer votre archive sur ce dépôt ou me communiquer un lien (WeTransfer, GoogleDrive)
+<b>mdelsinne@gmail.com</b>
+
+Merci
+
+<i>Source : https://www.data.gouv.fr/fr/datasets/donnees-cartographiques-concernant-lepidemie-de-covid-19/#</i>
