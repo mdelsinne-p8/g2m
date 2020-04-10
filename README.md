@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 # Examen : 10 avril 2020 (durée 3h)
 
-<h3>Récupérer l'archive suivante :</h3>
+<h3>Récupérer l'archive suivante : https://github.com/mdelsinne-p8/g2m/raw/master/exam-js-g2m-20200410.zip</h3>
 
 - index.html
     - js
