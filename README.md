@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1QfSwcTr0YbyywKXKRZmLGZJRBuyXRQ6Z/view?usp=shari
 
 # Examen : 10 avril 2020 (durée 3h)
 
-<h3>Recupérer l'archive suivante :</h3>
+<h3>Récupérer l'archive suivante :</h3>
 
 - index.html
     - js
@@ -68,7 +68,7 @@ Projection : WGS84 WebMarcator EPGS 3857
     - Attribut <b>Province/State</b> : Nom de la région
     - Attribut <b>Death</b> : Nombre de décès
     
-Déposer votre archive sur ce dépôt ou me communiquer un lien (WeTransfer, GoogleDrive)
+Déposer votre archive sur ce dépôt ou me communiquer un lien URL de partage (WeTransfer, GoogleDrive, etc.)
 
 <b>mdelsinne@gmail.com</b>
 
