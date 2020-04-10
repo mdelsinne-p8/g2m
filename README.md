@@ -58,9 +58,9 @@ Projection : WGS84 WebMarcator EPGS 3857
     - Créer les styles correspondants aux images PNG du répertoire 'data'
     - Exploiter le champ <b>Deaths</b> pour construire la symbologie suivante :
         - [0:100[ : symboliser avec l'image 8px <i>circle-8.png</i>
-        - [0:200[ : symboliser avec l'image 16px <i>circle-16.png</i>
-        - [0:1000[ : symboliser avec l'image 32px <i>circle-32.png</i>
-        - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
+        - [100:200[ : symboliser avec l'image 16px <i>circle-16.png</i>
+        - [200:1000[ : symboliser avec l'image 32px <i>circle-32.png</i>
+        - [1000:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
         - [autres valeurs] : symboliser avec l'image <i>undefined.png</i>
 
 5.  Ajouter l’événement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès référencés :
