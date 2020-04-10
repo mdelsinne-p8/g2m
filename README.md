@@ -56,7 +56,7 @@ Projection : WGS84 WebMarcator EPGS 3857
 
 4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19 - vectorLayer :
     - Créer les styles correspondants aux images PNG du répertoire 'data'
-    - Exploiter le champ <b>Deaths</b> pour construire la symbologie suivante :
+    - Exploiter l'attribut <b>Deaths</b> pour construire la symbologie suivante :
         - [0:100[ : symboliser avec l'image 8px <i>circle-8.png</i>
         - [100:200[ : symboliser avec l'image 16px <i>circle-16.png</i>
         - [200:1000[ : symboliser avec l'image 32px <i>circle-32.png</i>
