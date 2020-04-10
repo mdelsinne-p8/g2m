@@ -66,7 +66,7 @@ Projection : WGS84 WebMarcator EPGS 3857
 5.  Ajouter l’événement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès référencés :
     - Ajouter une div HTML dédiée à la popup
     - Attribut <b>Province/State</b> : Nom de la région
-    - Attribut <b>Death</b> : Nombre de décès
+    - Attribut <b>Deaths</b> : Nombre de décès
     
 Déposer votre archive sur ce dépôt ou me communiquer un lien URL de partage (WeTransfer, GoogleDrive, etc.)
 
