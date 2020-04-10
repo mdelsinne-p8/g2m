@@ -41,7 +41,7 @@ Projection : WGS84 WebMarcator EPGS 3857
 
 2.  Ajouter des contrôles à la carte (module:ol/control)
     - Slider de zoom (module:ol.control.ZoomSlider)
-    - Zoom étendue (module:ol.control.ZoomToExtent) : définir une étendue sur la france métropolitaie
+    - Zoom étendue (module:ol.control.ZoomToExtent) : définir une étendue sur la france métropolitaine
     - Mini-map (module:ol.control.OverviewMap) : définir OpenStreetMap comme fond de carte
     - Échelle (module:ol.control.ScaleLine)
 
