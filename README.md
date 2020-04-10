@@ -63,7 +63,7 @@ Projection : WGS84 WebMarcator EPGS 3857
         - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
         - [autres valeurs] :symboliser avec l'image <i>undefined.png</i>
 
-5.  Ajouter l’événement  <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès référencés :
+5.  Ajouter l’événement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès référencés :
     - Ajouter une div HTML dédiée à la popup
     - Attribut <b>Province/State</b> : Nom de la région
     - Attribut <b>Death</b> : Nombre de décès
