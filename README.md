@@ -50,8 +50,8 @@ Projection : WGS84 WebMarcator EPGS 3857
     - Depuis l'évènement <b>onchange</b> des cases à cocher, appeler une fonction JavaScript permettant de gérer la visibilité des deux fonds de carte
     - La case à cocher associée à la couche ArcGIS World Street Map ne dois pas être cochée au démarrage puisque la couche n'est pas visible au démarrage
     - Attention : 
-        - il doit toujours y avoir 1 fond de carte visible : c'est à dire que le fait de masquer un fond de carte entraine l'affichage visible de l'autre fond de carte
-        - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraine l'affichage masqué de l'autre fond de carte
+        - il doit toujours y avoir 1 fond de carte visible : c'est à dire que le fait de masquer un fond de carte entraîne l'affichage visible de l'autre fond de carte
+        - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraîne l'affichage masqué de l'autre fond de carte
         - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée ou non
 
 4.  Symboliser la couche vecteur point par régions de l'épidémie COVID-19 - vectorLayer :
@@ -63,8 +63,8 @@ Projection : WGS84 WebMarcator EPGS 3857
         - [0:infini] : symboliser avec l'image 64px <i>circle-64.png</i>
         - [autres valeurs] :symboliser avec l'image <i>undefined.png</i>
 
-5.  Ajouter l'évènement <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès réferencés :
-    - Ajouter une div HTML dediée à la popup
+5.  Ajouter l’événement  <b>click</b> sur la carte pour afficher une popup (module:ol/Overlay) dont le contenu affichera le nom de la région et le nombre de décès référencés :
+    - Ajouter une div HTML dédiée à la popup
     - Attribut <b>Province/State</b> : Nom de la région
     - Attribut <b>Death</b> : Nombre de décès
     
