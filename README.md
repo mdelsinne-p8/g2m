@@ -114,7 +114,7 @@ Projection : WGS84 WebMarcator EPGS 3857
 3.  Gérer la visibilité des fonds de carte : OpenStreetMap / ArcGIS World Street Map
     - Ajouter les cases à cocher HTML nécessaires <input type="checkbox" ...>
     - Depuis l'évènement <b>onchange</b> des cases à cocher, appliquer une fonction JavaScript permettant de gérer la visibilité des deux fonds de carte
-    - La case à cocher associée à la couche ArcGIS World Street Map ne dois pas être cochée au démarrage puisque la couche n'est pas visible au démarrage
+    - La case à cocher associée à la couche OpenStreetMap ne doit pas être cochée au démarrage puisque la couche n'est pas visible au démarrage
     - Attention : 
         - il doit toujours y avoir 1 fond de carte visible : c'est à dire que le fait de masquer un fond de carte entraîne l'affichage visible de l'autre fond de carte
         - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraîne l'affichage masqué de l'autre fond de carte
