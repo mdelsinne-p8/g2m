@@ -96,13 +96,13 @@ Merci
 
 La carte est composée d'un fond de carte et d'une couche vecteur point :
 - osmLayer : OpenStreetMap
-- vectorLayer : données les éruptions volcaniques en Italie
+- vectorLayer : données sur les éruptions volcaniques en Italie
 
 Projection : WGS84 WebMarcator EPGS 3857
 
 1.  Ajouter une couche de type ArcGIS REST Services (module:ol/source/TileArcGISRest)
     - Url : https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer
-    - Au démarrage, ce fond de carte doit être celui affiché par défault, à l'inverse OpenStreetMap ne doit pas être visible au démarrage
+    - Au démarrage, ce fond de carte doit être celui affiché par défaut, à l'inverse OpenStreetMap ne doit pas être visible au démarrage
     - Attention, intercaler la couche entre le fond de carte OpenStreetMap et la couche vecteur
 
 2.  Ajouter des contrôles à la carte (module:ol/control)
@@ -120,7 +120,7 @@ Projection : WGS84 WebMarcator EPGS 3857
         - il ne doit y avoir qu'un seul fond de carte visible : c'est à dire que le fait d'afficher un fond de carte entraîne l'affichage masqué de l'autre fond de carte
         - utiliser document.getElementById(checkbox).checked = true || false pour indiquer si une case à cocher doit être cochée ou non
 
-4.  Symboliser la couche vecteur point representant les volcans - vectorLayer :
+4.  Symboliser la couche vecteur point représentant les volcans - vectorLayer :
     - Créer les styles correspondants aux images PNG du répertoire 'data'
     - Exploiter l'attribut <b>risk</b> pour construire la symbologie suivante :
         - pour un risque inférieur ou égal à 2 : symboliser avec l'image 16px <i>volcano-16.png</i>
