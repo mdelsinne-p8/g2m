@@ -88,7 +88,7 @@ Merci
     - data
         - volcano-16.png
         - volcano-32.png
-        - volcano-32.png
+        - volcano-null.png
 
 <i>Editer index.html et renseigner votre NOM et prénom</i>
 
